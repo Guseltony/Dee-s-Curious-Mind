@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color System */
+  --color-primary: #4F46E5;
+  --color-primary-hover: #4338CA;
+  --color-secondary: #7C3AED;
+  --color-secondary-hover: #6D28D9;
+  --color-accent: #F59E0B;
+  --color-accent-hover: #D97706;
+  --color-bg-light: #F8FAFC;
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+  --color-success: #16A34A;
+  --color-error: #DC2626;
+
+  /* Typography */
+  --font-poppins: var(--font-poppins);
+  --font-inter: var(--font-inter);
+
+  /* Spacing / Border Radius custom names */
+  --radius-button: 0.75rem; /* rounded-xl */
+  --radius-card: 1rem;      /* rounded-2xl */
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0F172A;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Custom Utilities or Global overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+}
